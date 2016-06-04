@@ -69,7 +69,7 @@ prediction_errors <- function(dataIn, nextVal, errorParameter, MethodPath, Metho
     ghnew <- NULL
 
     dT1 <- Sys.time()
-      d <- forecast(auto.arima(dataIn1))
+      d <- forecast(auto.arima(dataIn1), nextVal)
       d <- as.numeric(unlist(data.frame(d)[1]))
     dT2 <- Sys.time()
     dT <- dT2 - dT1

@@ -26,3 +26,7 @@ plot_predictions(q)
 # cc
 # plot_predictions(cc)
 
+## ------------------------------------------------------------------------
+#a1 <- step_ahead_forecast(dataIn = datax, trainedData = 80, MethodPath = "source('~/imputeTestbench/R/PSFimpute.R')", errorParameter = 3, stepSize = 1)
+#a1
+

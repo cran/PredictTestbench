@@ -105,3 +105,9 @@ where
 
 - `existing_method` is Error observations for different methods
 - `index_number` is index number of unwanted method in study
+
+One/two Step ahead forecasting is done with function
+```{r}
+#a1 <- step_ahead_forecast(dataIn = datax, trainedData = 80, MethodPath = "source('~/imputeTestbench/R/PSFimpute.R')", errorParameter = 3, stepSize = 1)
+#a1
+```
