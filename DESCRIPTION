@@ -1,7 +1,7 @@
 Package: PredictTestbench
 Type: Package
 Title: Test Bench for Comparison of Data Prediction Models
-Version: 1.0.2
+Version: 1.1.1
 Author: Neeraj Bokde
 Maintainer: Neeraj Bokde <neerajdhanraj@gmail.com>
 Description: Provides a Testbench for comparison of prediction models. This
@@ -13,6 +13,8 @@ Description: Provides a Testbench for comparison of prediction models. This
     methods available in test bench. One/two step ahead prediction is also possible
     in the testbench.
 License: GPL
+BugReports: https://github.com/neerajdhanraj/PredictTestbench/issues
+URL: http://www.neerajbokde.com/cran/predicttestbench
 Imports: ggplot2, reshape2, PSF, forecast, methods, stats,
         imputeTestbench
 LazyData: TRUE
@@ -20,6 +22,6 @@ RoxygenNote: 5.0.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2016-06-02 08:54:03 UTC; NEERAJ
+Packaged: 2016-08-22 06:16:14 UTC; NEERAJ
 Repository: CRAN
-Date/Publication: 2016-06-04 07:52:29
+Date/Publication: 2016-08-22 10:00:15

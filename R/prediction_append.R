@@ -9,7 +9,7 @@
 #' @import ggplot2
 #' @import forecast
 #' @import PSF
-#' @importFrom imputeTestbench mape
+#' @importFrom imputeTestbench mape mae mape
 #' @importFrom methods hasArg
 #' @return Returns error comparosin for imputation methods
 #' @export

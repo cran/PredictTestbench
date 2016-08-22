@@ -13,9 +13,9 @@ This Document is to introduce the R package 'PredictTestbench'. It is an testing
 
 Following example describs the working of this package:
 
-Consider a sample data `datax` as follows:
+Consider a sample data 'sunspots' as follows:
 ```{r}
-datax <- c(1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5,1:5)
+datax <- sunspots
 ```
 
 Import library for Package `PredictTestbench` as follows:
@@ -39,7 +39,7 @@ where,
 
 At simplest form, function `prediction_errors()` can we used as:
 
-```{r}
+```{r fig.width=7}
 q <- prediction_errors(datax, nextVal = 10)
 q
 plot_predictions(q)
