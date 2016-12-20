@@ -1,7 +1,7 @@
 Package: PredictTestbench
 Type: Package
 Title: Test Bench for Comparison of Data Prediction Models
-Version: 1.1.1
+Version: 1.1.3
 Author: Neeraj Bokde
 Maintainer: Neeraj Bokde <neerajdhanraj@gmail.com>
 Description: Provides a Testbench for comparison of prediction models. This
@@ -20,8 +20,7 @@ Imports: ggplot2, reshape2, PSF, forecast, methods, stats,
 LazyData: TRUE
 RoxygenNote: 5.0.1
 Suggests: knitr, rmarkdown
-VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2016-08-22 06:16:14 UTC; NEERAJ
+Packaged: 2016-12-20 11:07:10 UTC; Neeraj
 Repository: CRAN
-Date/Publication: 2016-08-22 10:00:15
+Date/Publication: 2016-12-20 13:02:09
